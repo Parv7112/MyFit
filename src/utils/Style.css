@@ -1,0 +1,104 @@
+.navbar-button {
+    margin-right: 2rem;
+    padding: 10px 20px;
+}
+
+.navbar-button:hover{
+    background-color: white!important;
+    color: black!important;
+}
+
+.section1-button1 {
+    margin-left: 6rem;
+    padding: 10px 20px;
+}
+.section1-button2 {
+    margin-left: 1rem;
+    padding: 10px 20px;
+}
+.section1-button1:hover{
+    background-color: white!important;
+    color: black!important;
+}
+.section1-button2:hover{
+    background-color: white!important;
+    color: black!important;
+}
+
+.section1-video {
+    height: 40rem;
+}
+
+.section3-card{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+    margin-left: 5rem;
+}
+
+.section3-card1{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    margin-left: 5rem;
+}
+
+.section3-card:hover{
+    background-color: 18181b!important;
+    color: white!important;
+    border-radius: 10px;
+}
+
+.selected {
+    background-color: white!important;
+    color: white!important;
+    border-radius: 10px;
+}
+
+.section3-img{
+    margin-top: 7rem;
+    margin-left: -3rem;
+    width: 50rem;
+    height: 40rem;
+    align-content: center;
+}
+
+
+.section4-img{
+    width: 80%;
+    height: 20rem;
+    margin-right: 5rem;
+}
+
+
+.section5-card{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+    margin-left: 5rem;
+}
+
+.section5-card1{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    margin-left: 5rem;
+}
+
+.section5-card:hover{
+    background-color: 18181b!important;
+    color: white!important;
+    border-radius: 10px;
+}
+
+.section5-img{
+    margin-top: 7rem;
+    margin-left: 7rem;
+    width: 22rem;
+    height: 45rem;
+    align-content: center;
+}
