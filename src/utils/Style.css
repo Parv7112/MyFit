@@ -29,6 +29,13 @@
     height: 40rem;
 }
 
+@media screen and (min-width: 319px) and (max-width: 425px) {
+    .section1-video{
+        height: 20rem;
+    }
+}
+
+
 .section3-card{
     border-top: none;
     border-left: none;
@@ -47,12 +54,6 @@
 
 .section3-card:hover{
     background-color: 18181b!important;
-    color: white!important;
-    border-radius: 10px;
-}
-
-.selected {
-    background-color: white!important;
     color: white!important;
     border-radius: 10px;
 }

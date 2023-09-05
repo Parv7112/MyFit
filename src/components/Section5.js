@@ -8,7 +8,6 @@ import friendly from "../assets/003.png"
 const Section5 = () => {
 
     const [selectedCard, setSelectedCard] = useState(0);
-
     const handleCard1Click = (index) => {
         if (selectedCard === index) {
             setSelectedCard(0);
