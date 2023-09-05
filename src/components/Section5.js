@@ -16,7 +16,7 @@ const Section5 = () => {
     };
 
     return (
-        <div className="container-fluid">
+        <div className="container-fluid overflow-hidden">
             <div className="row bg-black">
                 <div className="my-5 text-white">
                     <h1 className="mx-md-5 px-md-5 mt-md-5">

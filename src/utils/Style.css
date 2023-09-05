@@ -153,3 +153,32 @@
         height: 18rem;
     }
 }
+
+.section6-text{
+    padding-left: 18rem;
+    padding-right: 18rem;
+}
+
+@media screen and (min-width: 319px) and (max-width: 769px){
+    .section6-text {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        font-size: small!important;
+    }
+}
+
+.section7-card {
+    max-height: 30rem;
+    max-width: 20rem!important;
+    border-radius: 10px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(24 24 27 / var(--tw-bg-opacity));
+}
+
+.section8-card {
+    max-height: 20rem;
+    max-width: 20rem!important;
+    border-radius: 10px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(24 24 27 / var(--tw-bg-opacity));
+}

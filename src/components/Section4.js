@@ -2,7 +2,7 @@ import React from 'react';
 
 const Section4 = () => {
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid overflow-hidden'>
             <div className="row bg-black text-white pt-5 align-items-stretch">
                 <div className="col-md-6 d-flex h-100 order-md-1 order-2 my-3">
                     <div className="mx-md-5 px-md-5">
