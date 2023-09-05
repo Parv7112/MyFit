@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Section1 from './components/Section1';
 import Section2 from './components/Section2';
@@ -13,7 +13,7 @@ const App = () => {
             <Navbar />
             <Section1 />
             <Section2 />
-            {/* <Section3 /> */}
+            <Section3 />
             <Section4 />
             <Section5 />
         </Router>

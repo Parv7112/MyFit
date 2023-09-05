@@ -3,26 +3,29 @@
     padding: 10px 20px;
 }
 
-.navbar-button:hover{
-    background-color: white!important;
-    color: black!important;
+.navbar-button:hover {
+    background-color: white !important;
+    color: black !important;
 }
 
 .section1-button1 {
     margin-left: 6rem;
     padding: 10px 20px;
 }
+
 .section1-button2 {
     margin-left: 1rem;
     padding: 10px 20px;
 }
-.section1-button1:hover{
-    background-color: white!important;
-    color: black!important;
+
+.section1-button1:hover {
+    background-color: white !important;
+    color: black !important;
 }
-.section1-button2:hover{
-    background-color: white!important;
-    color: black!important;
+
+.section1-button2:hover {
+    background-color: white !important;
+    color: black !important;
 }
 
 .section1-video {
@@ -30,51 +33,89 @@
 }
 
 @media screen and (min-width: 319px) and (max-width: 425px) {
-    .section1-video{
+    .section1-video {
         height: 20rem;
     }
 }
 
 
-.section3-card{
+.section3-card {
     border-top: none;
     border-left: none;
     border-right: none;
     border-bottom: 1px solid lightgray;
     margin-left: 5rem;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
-.section3-card1{
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid white;
-    margin-left: 5rem;
-}
-
-.section3-card:hover{
-    background-color: 18181b!important;
-    color: white!important;
+.section3-card:hover {
+    background-color: #18181b !important;
+    color: white !important;
     border-radius: 10px;
 }
 
-.section3-img{
-    margin-top: 7rem;
+.section3-img {
+    margin-top: 4rem;
     margin-left: -3rem;
-    width: 50rem;
-    height: 40rem;
+    max-width: 50rem;
+    max-height: 40rem;
     align-content: center;
 }
 
+.section3-text {
+    font-size: medium;
+}
 
-.section4-img{
+.section3-heading {
+    font-size: larger;
+}
+
+.section5-heading {
+    font-size: larger;
+}
+
+@media screen and (min-width: 319px) and (max-width: 769px) {
+    .section3-img {
+        max-height: 12rem;
+        max-width: 20rem;
+        margin-top: -3rem;
+        margin-left: 1rem;
+    }
+
+    .section3-card {
+        margin-left: 0rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .section3-text {
+        font-size: xx-small !important;
+    }
+
+    .section3-heading {
+        font-size: medium;
+    }
+
+    .section5-heading {
+        font-size: small;
+    }
+}
+
+.section4-img {
     width: 80%;
-    height: 20rem;
+    max-height: 20rem;
     margin-right: 5rem;
 }
 
+@media screen and (min-width: 319px) and (max-width: 769px) {
+    .section4-img {
+        margin-right: 0rem;
+    }
+}
 
-.section5-card{
+
+.section5-card {
     border-top: none;
     border-left: none;
     border-right: none;
@@ -82,7 +123,7 @@
     margin-left: 5rem;
 }
 
-.section5-card1{
+.section5-card1 {
     border-top: none;
     border-left: none;
     border-right: none;
@@ -90,16 +131,25 @@
     margin-left: 5rem;
 }
 
-.section5-card:hover{
-    background-color: 18181b!important;
-    color: white!important;
+.section5-card:hover {
+    background-color: 18181b !important;
+    color: white !important;
     border-radius: 10px;
 }
 
-.section5-img{
-    margin-top: 7rem;
-    margin-left: 7rem;
+.section5-img {
+    margin-top: 4rem;
+    margin-left: 14rem;
     width: 22rem;
-    height: 45rem;
-    align-content: center;
+    height: 40rem;
+}
+
+@media screen and (min-width: 319px) and (max-width: 769px) {
+    .section5-img {
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+        margin-left: 4rem;
+        width: 10rem;
+        height: 18rem;
+    }
 }

@@ -21,84 +21,84 @@ const Section3 = () => {
 
     return (
         <div className="container-fluid">
-            <div className="row bg-black text-white">
-                <div className="my-5">
-                    <h1 className="mx-5 px-5">
+            <div className="row bg-black">
+                <div className="my-5 text-white">
+                    <h1 className="mx-md-5 px-md-5">
                         My Fit Mantra: The Best Training Software for Trainers
                     </h1>
-                    <p className="mx-5 px-5">
+                    <p className="mx-md-5 px-md-5">
                         MFM has everything to help you achieve your fitness goals
                     </p>
                 </div>
 
-                <div className="col-md-6">
-                    <div className={`section3-card ${selectedCard === 0 ? 'selected' : ''}`} onClick={() => handleCardClick(0)}>
-                        <span className="d-flex align-items-center">
+                <div className="col-md-6 order-md-1 order-2">
+                    <div className={`section3-card ${selectedCard === 0 ? 'text-white' : ''}`} onClick={() => handleCardClick(0)}>
+                        <span className="d-flex align-items-center my-2 section3-heading">
                             <AiOutlineLogout className="fs-3 me-2" />
-                            <p className="m-0 fs-4">Unlimited Workouts/ Nutritions</p>
+                            <p className="m-0 section3-heading">Unlimited Workouts/ Nutritions</p>
                         </span>
-                        <p className="fs-6">
-                            With a vast collection of workout plans and nutritious meal suggestions, we also <br />
-                            provide you with an option to create your own workout and nutrition libraries for <br />
+                        <p className="section3-text">
+                            With a vast collection of workout plans and nutritious meal suggestions, we also 
+                            provide you with an option to create your own workout and nutrition libraries for 
                             your clients.
                         </p>
                     </div>
-                    <div className={`section3-card ${selectedCard === 1 ? 'selected' : ''}`} onClick={() => handleCardClick(1)}>
-                        <span className="d-flex align-items-center">
+                    <div className={`section3-card ${selectedCard === 1 ? 'text-white' : ''}`} onClick={() => handleCardClick(1)}>
+                        <span className="d-flex align-items-center my-2 section3-heading">
                             <AiOutlineLogout className="fs-3 me-2" />
-                            <p className="m-0 fs-4">Unlimited Clients</p>
+                            <p className="m-0 section3-heading">Unlimited Clients</p>
                         </span>
-                        <p className="fs-6">
-                            Manage and track the progress of an unlimited number of clients, making it <br />
+                        <p className="section3-text">
+                            Manage and track the progress of an unlimited number of clients, making it
                             easier and more efficient for you to grow your business.
                         </p>
                     </div>
-                    <div className={`section3-card ${selectedCard === 2 ? 'selected' : ''}`} onClick={() => handleCardClick(2)}>
-                        <span className="d-flex align-items-center">
+                    <div className={`section3-card ${selectedCard === 2 ? 'text-white' : ''}`} onClick={() => handleCardClick(2)}>
+                        <span className="d-flex align-items-center my-2 section3-heading">
                             <AiOutlineLogout className="fs-3 me-2" />
-                            <p className="m-0 fs-4">Create Programs</p>
+                            <p className="m-0 section3-heading">Create Programs</p>
                         </span>
-                        <p className="fs-6">
-                            The Create Programs feature is a cutting-edge tool that allows users to easily <br />
-                            create and customize their own programs for specific purposes, it's the perfect <br />
-                            tool for businesses, organizations, and individuals who want to increase <br />
+                        <p className="section3-text">
+                            The Create Programs feature is a cutting-edge tool that allows users to easily 
+                            create and customize their own programs for specific purposes, it's the perfect 
+                            tool for businesses, organizations, and individuals who want to increase 
                             efficiency and productivity.
                         </p>
                     </div>
-                    <div className={`section3-card ${selectedCard === 3 ? 'selected' : ''}`} onClick={() => handleCardClick(3)}>
-                        <span className="d-flex align-items-center">
+                    <div className={`section3-card ${selectedCard === 3 ? 'text-white' : ''}`} onClick={() => handleCardClick(3)}>
+                        <span className="d-flex align-items-center my-2 section3-heading">
                             <AiOutlineLogout className="fs-3 me-2" />
-                            <p className="m-0 fs-4">Sell Packages</p>
+                            <p className="m-0 section3-heading">Sell Packages</p>
                         </span>
-                        <p className="fs-6">
-                            An innovative tool that enables businesses and organizations to sell pre- <br />
+                        <p className="section3-text">
+                            An innovative tool that enables businesses and organizations to sell pre- 
                             packaged products or services directly to their customers.
                         </p>
                     </div>
-                    <div className={`section3-card ${selectedCard === 4 ? 'selected' : ''}`} onClick={() => handleCardClick(4)}>
-                        <span className="d-flex align-items-center">
+                    <div className={`section3-card ${selectedCard === 4 ? 'text-white' : ''}`} onClick={() => handleCardClick(4)}>
+                        <span className="d-flex align-items-center my-2 section3-heading">
                             <AiOutlineLogout className="fs-3 me-2" />
-                            <p className="m-0 fs-4">Result Tracking</p>
+                            <p className="m-0 section3-heading">Result Tracking</p>
                         </span>
-                        <p className="fs-6">
-                            Provides real-time insights into key performance metrics, allowing you to see <br />
-                            exactly how your client is progressing and make data-driven decisions to <br />
+                        <p className="section3-text">
+                            Provides real-time insights into key performance metrics, allowing you to see 
+                            exactly how your client is progressing and make data-driven decisions to 
                             improve their results.
                         </p>
                     </div>
-                    <div className={`section3-card ${selectedCard === 5 ? 'selected' : ''}`} onClick={() => handleCardClick(5)}>
-                        <span className="d-flex align-items-center">
+                    <div className={`section3-card ${selectedCard === 5 ? 'text-white' : ''}`} onClick={() => handleCardClick(5)}>
+                        <span className="d-flex align-items-center my-2 section3-heading">
                             <AiOutlineLogout className="fs-3 me-2" />
-                            <p className="m-0 fs-4">Instant Chat</p>
+                            <p className="m-0 section3-heading">Instant Chat</p>
                         </span>
-                        <p className="fs-6">
-                            Instant Chat provides a seamless and convenient communication experience for <br />
+                        <p className="section3-text">
+                            Instant Chat provides a seamless and convenient communication experience for 
                             products, dishes, and ingredients.
                         </p>
                     </div>
                 </div>
 
-                <div className="col-md-6">
+                <div className="col-md-6 order-md-2 order-1">
                     {selectedCard !== null && (
                         <>
                             {selectedCard === 0 && <img className="section3-img" src={workout} alt="" />}
