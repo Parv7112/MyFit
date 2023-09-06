@@ -5,7 +5,7 @@
 
 .navbar-toggler {
     --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
+    background-color: rgb(69 161 136 / var(--tw-bg-opacity))!important;
 }
 
 .navbar-button:hover {
@@ -41,6 +41,9 @@
     .section1-video {
         height: 20rem;
     }
+    .section1-button1 {
+        margin-left: 0rem;
+    }    
 }
 
 
