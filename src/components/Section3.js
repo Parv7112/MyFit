@@ -101,12 +101,12 @@ const Section3 = () => {
                 <div className="col-md-6 order-md-2 order-1">
                     {selectedCard !== null && (
                         <>
-                            {selectedCard === 0 && <img className="section3-img" src={workout} alt="" />}
-                            {selectedCard === 1 && <img className="section3-img" src={clients} alt="" />}
-                            {selectedCard === 2 && <img className="section3-img" src={programs} alt="" />}
-                            {selectedCard === 3 && <img className="section3-img" src={packages} alt="" />}
-                            {selectedCard === 4 && <img className="section3-img" src={resultTracking} alt="" />}
-                            {selectedCard === 5 && <img className="section3-img" src={instantChat} alt="" />}
+                            {selectedCard === 0 && <img className="section3-img d-block mx-auto" src={workout} alt="" />}
+                            {selectedCard === 1 && <img className="section3-img d-block mx-auto" src={clients} alt="" />}
+                            {selectedCard === 2 && <img className="section3-img d-block mx-auto" src={programs} alt="" />}
+                            {selectedCard === 3 && <img className="section3-img d-block mx-auto" src={packages} alt="" />}
+                            {selectedCard === 4 && <img className="section3-img d-block mx-auto" src={resultTracking} alt="" />}
+                            {selectedCard === 5 && <img className="section3-img d-block mx-auto" src={instantChat} alt="" />}
                         </>
                     )}
                 </div>

@@ -39,8 +39,8 @@ function Section8() {
                     </div>
                 </div>
 
-                <div className="d-md-none"> {/* Show on small screens */}
-                    <div id="cardCarousel1" className="carousel slide" data-bs-ride="carousel">
+                <div className="d-md-none d-flex justify-content-center align-items-center">
+                <div id="cardCarousel1" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-inner ">
                             <div className="carousel-item active">
                                 <div className="section8-card p-4 mx-2 ">

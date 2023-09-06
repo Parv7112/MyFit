@@ -87,12 +87,12 @@ const Section5 = () => {
                 <div className="col-md-6 order-md-2 order-1">
                     {selectedCard !== null && (
                         <>
-                            {selectedCard === 0 && <img className="section5-img" src={diet} alt="" />}
-                            {selectedCard === 1 && <img className="section5-img" src={free} alt="" />}
-                            {selectedCard === 2 && <img className="section5-img" src={friendly} alt="" />}
-                            {selectedCard === 3 && <img className="section5-img" src={diet} alt="" />}
-                            {selectedCard === 4 && <img className="section5-img" src={free} alt="" />}
-                            {selectedCard === 5 && <img className="section5-img" src={friendly} alt="" />}
+                            {selectedCard === 0 && <img className="section5-img d-block mx-auto" src={diet} alt="" />}
+                            {selectedCard === 1 && <img className="section5-img d-block mx-auto" src={free} alt="" />}
+                            {selectedCard === 2 && <img className="section5-img d-block mx-auto" src={friendly} alt="" />}
+                            {selectedCard === 3 && <img className="section5-img d-block mx-auto" src={diet} alt="" />}
+                            {selectedCard === 4 && <img className="section5-img d-block mx-auto" src={free} alt="" />}
+                            {selectedCard === 5 && <img className="section5-img d-block mx-auto" src={friendly} alt="" />}
                         </>
                     )}
                 </div>

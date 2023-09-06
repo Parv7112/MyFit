@@ -62,6 +62,7 @@
     background-color: #18181b !important;
     color: white !important;
     border-radius: 10px;
+    cursor: pointer!important;
 }
 
 .section3-img {
@@ -91,7 +92,7 @@
         max-height: 12rem;
         max-width: 20rem;
         margin-top: -3rem;
-        margin-left: 1rem;
+        /* margin-left: 1rem; */
     }
 
     .section3-card {
@@ -159,7 +160,6 @@
     .section5-img {
         margin-bottom: 3rem;
         margin-top: 1rem;
-        margin-left: 4rem;
         width: 10rem;
         height: 18rem;
     }

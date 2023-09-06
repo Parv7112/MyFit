@@ -16,8 +16,7 @@ const Section2 = () => {
                             ONLINE TRAINING
                         </p>
                         <h1 className='fw-bold fs-1 mx-3 text-start'>
-                            Sell More Coaching And <br />
-                            Boost Your PT Profits.
+                            Sell More Coaching And Boost Your PT Profits.
                         </h1>
                         <p className='fs-5 mx-3 text-start'>
                             Digitize and centralize your personal training systems easily and <br />

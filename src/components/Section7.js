@@ -57,9 +57,9 @@ function Section7() {
                     </div>
                 </div>
 
-                <div className="d-md-none"> {/* Show on small screens */}
-                    <div id="cardCarousel" className="carousel slide" data-bs-ride="carousel">
-                        <div className="carousel-inner ">
+                <div className="d-md-none d-flex justify-content-center align-items-center">
+                <div id="cardCarousel" className="carousel slide" data-bs-ride="carousel">
+                        <div className="carousel-inner">
                             <div className="carousel-item active">
                                 <div className="section7-card p-4 mx-2">
                                     <img src={Track1} alt="Macro Calculator" className="w-full rounded-xl w-100" />
