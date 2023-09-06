@@ -6,7 +6,7 @@ import '../assets/myfit-logo.png';
 const NavbarComponent = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" className='navbar-toggler' />
             <Navbar.Collapse id="responsive-navbar-nav" className="justify justify-content-center">
                 <Navbar.Brand href="#" className='mx-5'>
                     <img
