@@ -14,7 +14,7 @@ import Footer from './Footer';
 
 function LandingPage() {
   return (
-    <div>
+    <div className='bg-black'>
     <Navbar />
     <Section1 />
     <Section2 />
