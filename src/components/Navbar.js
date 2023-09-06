@@ -8,7 +8,7 @@ const NavbarComponent = () => {
         <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
             <Navbar.Toggle aria-controls="responsive-navbar-nav" className='navbar-toggler' />
             <Navbar.Collapse id="responsive-navbar-nav" className="justify justify-content-center">
-                <Navbar.Brand href="#" className='mx-5'>
+                <Navbar.Brand href="#" className=''>
                     <img
                         alt="MyFitMantra Logo"
                         src={require('../assets/myfit-logo.png')}
@@ -17,7 +17,7 @@ const NavbarComponent = () => {
                         className="d-inline-block align-top"
                     />
                 </Navbar.Brand>
-                <Nav className="mr-auto mx-5 px-5">
+                <Nav className="m-auto">
                     <Nav.Link href="#Home" className='text-white fw-bold fs-6'>HOME</Nav.Link>
                     <Nav.Link href="#AboutUs" className='text-white fw-bold fs-6 '>ABOUT US</Nav.Link>
                     <Nav.Link href="#Feature" className='text-white fw-bold fs-6 '>FEATURE</Nav.Link>
@@ -28,12 +28,12 @@ const NavbarComponent = () => {
                 </Nav>
                 <div className="">
                     <Button href="#login" variant="outline-light text-white fw-bold navbar-button">
-                        <span className='mx-3'>
+                        <span className='px-2'>
                             Login
                         </span>
                     </Button>
                     <Button href="#getStarted" variant="outline-light text-white fw-bold navbar-button">
-                        <span className='mx-3'>
+                        <span className='px-2'>
                             Get Started
                         </span>
                     </Button>

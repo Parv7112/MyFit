@@ -3,6 +3,12 @@
     padding: 10px 20px;
 }
 
+@media (max-width: 1024px) {
+    .navbar-button {
+    margin-right: 0; /* Remove right margin */
+    }
+  }
+  
 .navbar-toggler {
     --tw-text-opacity: 1;
     background-color: rgb(69 161 136 / var(--tw-bg-opacity))!important;
